@@ -1,0 +1,91 @@
+/* .profile-card
+{
+    text-align: center;
+
+} 
+
+a:hover{
+    background-color: white;
+}
+
+.profile-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+ */
+
+ /* body {
+    font-family: "Barlow Condensed", sans-serif;
+    background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  } */
+
+  .menu-container {
+    justify-content: center;
+   
+    width: 80px;
+    height: 1250px;
+    display: inline-block;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    background-image: linear-gradient(rgb(70, 12, 229), rgb(72, 66, 229));
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 30px;
+
+  }
+  .menu {
+    height: 90px;
+    line-height: 60px;
+   
+  }
+  .menu .icon {
+    padding: 20px 20px;
+    font-size: 26px;
+    color: #ffffff;
+
+  }
+  /* .menu .text {
+    width: 180px;
+    position: absolute;
+    transition: 0.7s;
+    transform-origin: 0px 0px;
+    transform: rotateY(90deg);
+    padding: 0px 20px;
+    backface-visibility: hidden;
+    background: white;
+  }
+  .menu-container:hover .text {
+    transform: rotateY(0deg);
+  }
+  .fa {
+    width: 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  .menu .text:hover,
+  .menu .text:focus {
+    background: #6295c9;
+    color: #fff;
+  }
+  .content {
+    margin-left: 70px;
+    width: 100%;
+    text-align: center;
+  }
+   */
+
+   .list{
+    background-color: rgb(235, 232, 232);
+
+
+   }

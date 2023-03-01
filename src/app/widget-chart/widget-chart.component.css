@@ -1,0 +1,12 @@
+.chart
+{
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 25px; 
+    margin-top: -400px; 
+    margin-left: 375px; 
+    width: 750px; 
+    height: 375px; 
+    display: block;
+    background-color: rgb(235, 232, 232);
+}
+

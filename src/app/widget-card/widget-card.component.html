@@ -1,0 +1,88 @@
+<!-- <div [ngClass]="bg" class="card">
+    <mat-icon class="icon">{{icon}}</mat-icon>
+<div>
+    <h4>{{desc}}</h4>
+    <h3>{{total}}</h3>
+</div>
+</div> -->
+
+<div class="card-list">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card blue" style="margin-left: 30px;">
+                <div class="title">Balance<mat-icon style="float: right; color: blue;">keyboard_arrow_right</mat-icon><a
+                        style="float: right; color: blue;">Wallet</a></div>
+                <i class="zmdi zmdi-upload"></i>
+                <div class="value"><b>$14 760.78</b></div>
+                <div class="time">6 April, 4 PM</div>
+                <div class="stat"><b>43.12%</b>
+                    <div style="float: right;"><b>+5566.25</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card blue">
+                <div class="title">Saved Money<mat-icon
+                        style="float: right; color: blue;">keyboard_arrow_right</mat-icon><a
+                        style="float: right; color: blue;">Savings</a></div>
+                <i class="zmdi zmdi-upload"></i>
+                <div class="value"><b>$17 760.78</b></div>
+                <div class="time">6 April, 4 PM</div>
+                <div class="stat"><b>3.12%</b>
+                    <div style="float: right;"><b>+1006.25</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card blue" style="margin-left: -30px;">
+                <div class="title">Arrearages<mat-icon
+                        style="float: right; color: blue;">keyboard_arrow_right</mat-icon><a
+                        style="float: right; color: blue;">Loans</a></div>
+                <i class="zmdi zmdi-upload"></i>
+                <div class="value"><b>$16 970.78</b></div>
+                <div class="time">6 April, 4 PM</div>
+                <div class="stat"><b>25.22%</b>
+                    <div style="float: right;"><b>+8789.25</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="card-containers">
+                <div><i style="float: right; margin-right: 10px;" class="fa-solid fa-ellipsis-vertical"></i></div>
+                <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+                <h3 style="color: black; margin-left: 110px;">Emily Blunt</h3>
+                <h6 style="color: gray;">Friday,6 April 2023</h6>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="Transactions blue" style="margin-top: -60px; margin-left: 30px;">
+                <div class="title">Transactions<mat-icon>keyboard_arrow_down</mat-icon></div>
+                <div class="visa">Visa<mat-icon>keyboard_arrow_down</mat-icon>&nbsp;&nbsp;
+                    <button type="button" class=" btn oval-btn">Day</button>
+                    <button type="button" class="  btn oval-btn">Week</button>
+                    <button type="button" class=" btn oval-btn">Month</button>
+                    <button type="button" class=" btn oval-btn">All</button>
+                </div>
+                <i class="zmdi zmdi-upload"></i>
+
+                <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions"
+                    style="width: 150px; height: 150px; display: block;"></highcharts-chart>
+            </div>
+        </div>
+
+
+            <div class="box eco" style="margin-top: 20px; margin-right: 30px;">
+                <h4 style="margin-top: 10px; margin-left: -10px;">Balance</h4>
+                <h3>$83,547.98</h3>
+                <h3 style="color: rgb(185, 179, 179);">4555 4885 4777 5556</h3>
+                <h4 style="color: rgb(185, 179, 179); margin-bottom: -5px;">VALID THRU</h4>
+                <h4 style="margin-top: -10px;" class="verve"><span>V</span>isa</h4>
+                <h4>12/25</h4>
+                <button type="button" class="addcard btn btn-light rounded-pill">Add Card <i class="fa-solid fa-plus"></i></button>
+
+              </div>
+
+
+
+    </div>
+</div>

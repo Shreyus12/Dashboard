@@ -1,0 +1,21 @@
+.last
+{
+    width: 500px; 
+    height: 400px; 
+    display: block; 
+    border-radius: 25px;
+    float: right;
+    margin-top: 50px;
+    border-radius: 25px;
+    
+
+}
+
+.last1
+{
+
+    float: right;
+    background-color: rgb(235, 232, 232);
+
+}
+
